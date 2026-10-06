@@ -17,7 +17,7 @@ export function Invitation({
       <div className={styles.buttons}>
         <button
           className={styles.buttonCancel}
-          onMouseOver={() => setIsMoved(!isMoved)}
+          onPointerDown={() => setIsMoved((moved) => !moved)}
           style={{
             transform: isMoved ? "translate(80px)" : "translate(0)",
           }}
