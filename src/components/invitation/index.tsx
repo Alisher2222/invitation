@@ -12,7 +12,7 @@ export function Invitation({
     <div className={styles.container}>
       <p>
         <strong className={styles.name}>Ominakhon</strong>, would you like to go
-        with me on Astana ball?
+        with me to the Astana ball?
       </p>
       <div className={styles.buttons}>
         <button
